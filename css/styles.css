@@ -1,0 +1,33 @@
+body{
+  background-color: #E6D2AA;
+}
+.icecream{
+  margin: 300px;
+  display: flex;
+}
+.coneSection{
+  margin:10px;
+  margin-right: 100px;
+  }
+.creamSection{
+  margin: 10px;
+  flex-direction:row;
+}
+#cone{
+  width:0;
+  border-top: 100px solid brown;
+  border-left: 40px solid transparent;
+  border-right: 40px  solid transparent;
+}
+
+#cream{
+  position: absolute;
+  padding: 30px;
+  width: 30px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #B9005B;
+  cursor: move;
+}
